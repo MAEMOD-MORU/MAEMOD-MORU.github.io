@@ -4,8 +4,8 @@ tagline: Mathematical and Economic MODelling (MAEMOD)
 email: your-email@domain.com
 description: >
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/ga_blog"
-url: ""
+baseurl: ""
+url: "MAEMOD-MORU.github.io"
 permalink: pretty
 #favicon: /path/to/favicon.png
 #hide_share_buttons: true
