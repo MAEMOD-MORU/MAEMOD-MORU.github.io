@@ -1,0 +1,17 @@
+<p class="title is-4">Twitter</p>
+
+<a class="twitter-timeline" href="https://twitter.com/MORUBKK?ref_src=twsrc%5Etfw" data-tweet-limit="5">Tweets by TwitterDev</a> 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p class="title is-4">Latest Posts</p>
+
+<div class="columns is-multiline">
+    {% for post in site.posts limit:3 %}
+    <div class="column is-12">
+        {% include post-card.html %}
+    </div>
+    {% endfor %}
+</div>
+
+
+
