@@ -5,7 +5,7 @@ email: your-email@domain.com
 description: >
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
 baseurl: ""
-url: "MAEMOD-MORU.github.io"
+url: ""
 permalink: pretty
 #favicon: /path/to/favicon.png
 #hide_share_buttons: true
