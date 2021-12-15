@@ -20,6 +20,7 @@ show_sidebar: false
 - [a web based mathematical modelling tool or *app* to support _Plasmodium  falciparum_ malaria elimination strategy design](https://moru.shinyapps.io/MDA_eff/)
 - [MARC Malaria Data Repository](https://moru.shinyapps.io/myanmar_data_repository/)
 - [Cambodia Malaria Outbreak Detection Tool](https://moru.shinyapps.io/CambodiaODT/)
+- [Modelling optimal strategies to screen and treat chronic Hepatitis C Virus infections](https://moru.shinyapps.io/webHepC/)
 
 
 
