@@ -21,6 +21,7 @@ show_sidebar: false
 - [MARC Malaria Data Repository](https://moru.shinyapps.io/myanmar_data_repository/)
 - [Cambodia Malaria Outbreak Detection Tool](https://moru.shinyapps.io/CambodiaODT/)
 - [Modelling optimal strategies to screen and treat chronic Hepatitis C Virus infections](https://moru.shinyapps.io/webHepC/)
+- [Applying taxonomic Boundaries for species Identification](https://github.com/slphyx/ABI)
 
 
 
@@ -29,10 +30,7 @@ show_sidebar: false
 - [maemod R package](https://github.com/slphyx/maemod) [Web](https://slphyx.shinyapps.io/maemodshiny/)
 - [A collection of the P. falciparum Dynamic models](https://github.com/slphyx/P.-falciparum-Dynamics)
 - [Hat Game: A Simple SIR model](https://slphyx.shinyapps.io/HatGame/) [Codes](https://github.com/slphyx/hatgame)
-- [MAEMOD BUGS](https://github.com/slphyx/maemodBUGS)
-- [Kung R package](https://github.com/slphyx/Kung)
-- [RLongLexTo - Thai word segmentation](https://github.com/slphyx/RLongLexTo)
-- [RLongdoDict - TH-EN Dictionary](https://github.com/slphyx/RLongdoDict)
+
 
 
 
