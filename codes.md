@@ -24,12 +24,11 @@ show_sidebar: false
 - [Applying taxonomic Boundaries for species Identification](https://github.com/slphyx/ABI)
 
 
-
 # Tools/Codes
 
 - [maemod R package](https://github.com/slphyx/maemod) [Web](https://slphyx.shinyapps.io/maemodshiny/)
 - [A collection of the P. falciparum Dynamic models](https://github.com/slphyx/P.-falciparum-Dynamics)
 - [Hat Game: A Simple SIR model](https://slphyx.shinyapps.io/HatGame/) [Codes](https://github.com/slphyx/hatgame)
-
+- [RandomApp](https://github.com/MAEMOD-MORU/RandomApp)
 
 # Course Materials
