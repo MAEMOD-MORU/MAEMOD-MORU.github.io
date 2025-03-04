@@ -1,0 +1,35 @@
+---
+import { Picture } from "astro:assets";
+import moruImage from "assets/MORU_FS_RGB.jpg";
+import Link from "@components/ui/link.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<main class="bg-white text-gray-900 pt-10 pb-20 border-b border-gray-300">
+  <div class="container mx-auto text-center px-6">
+    <!-- <Picture src={moruImage} alt="MORU Logo" class="mx-auto w-40 mb-6 opacity-90"/> -->
+
+    <!-- Headline -->
+    <h1 class="text-5xl lg:text-6xl font-bold tracking-tight">
+      Mathematical and Economic MODelling (MAEMOD)
+    </h1>
+
+    <!-- Subtext -->
+    <p class="text-lg mt-4 max-w-3xl mx-auto text-gray-600">
+      This is where we share our software, codes, data, and research projects.
+    </p>
+
+    <div class="mt-6 flex justify-center">
+      <Link
+        size="lg"
+        style="outline"
+        rel="noopener"
+        href="https://github.com/MAEMOD-MORU"
+        class="flex gap-1 items-center justify-center border-gray-700 text-gray-900 hover:bg-gray-100"
+        target="_blank">
+        <Icon class="text-black w-5 h-5" name="bx:bxl-github" />
+        GitHub Repo
+      </Link>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,40 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon/components";
+
+const features = [
+  {
+    title: "A short-term goal",
+    description:
+      "To build capacity within the group and in the institutions/programmes of their collaborators through the training of new modellers and data analysts.",
+    icon: "bx:bxs-briefcase",
+  },
+  {
+    title: "A long-term goal",
+    description:
+      "To create a productive and sustainable collaborative modelling network in South East Asia which links with and supports the discipline in all tropical settings.",
+    icon: "bx:bxs-window-alt",
+  },
+];
+---
+
+<section class="py-16">
+  <h2 class="text-4xl font-bold text-center text-gray-800">MAEMOD Mission</h2>
+  <p class="text-lg text-gray-600 text-center mt-2">
+    Our research focuses on mathematical and economic modeling in tropical medicine.
+  </p>
+
+  <div class="flex flex-wrap justify-center gap-8 mt-12">
+    {features.map((item) => (
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition transform hover:-translate-y-2 max-w-md w-full sm:w-[45%]">
+        <div class="flex items-center gap-4">
+          <div class="bg-black text-white p-3 rounded-full">
+            <Icon class="w-6 h-6" name={item.icon} />
+          </div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>
+        </div>
+        <p class="text-gray-600 mt-3">{item.description}</p>
+      </div>
+    ))}
+  </div>
+</section>
