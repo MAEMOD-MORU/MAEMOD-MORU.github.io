@@ -7,8 +7,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://nongpepenasi.github.io/MEAMOD_Page",
+  site: "https://maemod-moru.github.io/",
   integrations: [tailwind(), mdx(), sitemap(), icon(), react()],
-  base: "/MEAMOD_Page/",
   output: "static",
 });
