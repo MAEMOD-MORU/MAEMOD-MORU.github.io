@@ -3,7 +3,7 @@ draft: false
 title: "Mathematical Modelling for Malaria Elimination"
 snippet: "A web-based mathematical model to evaluate malaria control interventions and guide elimination strategies."
 image: {
-    src: "/src/assets/MORU_FS_RGB.jpg",
+    src: "/assets/MORU_FS_RGB.jpg",
     alt: "Malaria Elimination"
 }
 publishDate: "2024-02-26"

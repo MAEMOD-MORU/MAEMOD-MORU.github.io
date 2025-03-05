@@ -4,11 +4,11 @@ import * as d3 from "d3";
 
 const orgData = [
   // Head of Department
-  { id: "1", position: "Head of Department", names: ["Assoc Prof Dr. Wirichada Pan-ngum, PhD"], photo: "/src/assets/headshot/1.wirichada.webp", parentId: null },
+  { id: "1", position: "Head of Department", names: ["Assoc Prof Dr. Wirichada Pan-ngum, PhD"], photo: "/assets/headshot/1.wirichada.webp", parentId: null },
   { id: "2", position: "Project Coordinator", names: ["Sureeporn Thongkuna"], parentId: "1" },
 
   // EIRG Groups
-  { id: "3", position: "Head of EIRG", names: ["Assoc Prof Yoel Lubell"], photo: "/src/assets/headshot/2.yoel.webp",parentId: "1" },
+  { id: "3", position: "Head of EIRG", names: ["Assoc Prof Yoel Lubell"], photo: "/assets/headshot/2.yoel.webp",parentId: "1" },
   { id: "4", position: "SEACTN, Spot Sepsis Project Management", names: ["Watcharintorn Thongpiam"], parentId: "3" },
   { id: "5", position: "Senior Research Fellow", names: ["Assoc Prof Marco Liverani"], parentId: "3" },
   { id: "6", position: "SEACTN - Postdoc Researcher", names: ["Dr Nan Shwe Nwe Htun"], parentId: "3" },
@@ -21,7 +21,7 @@ const orgData = [
   { id: "13", position: "DPhil Student", names: ["Suh Young Kang, Sophie"], parentId: "3" },
 
   // DRlaDD Groups
-  { id: "15", position: "Head of DRIaDD", names: ["Prof Ben S Cooper"], photo: "/src/assets/headshot/3.ben.webp", parentId: "1" },
+  { id: "15", position: "Head of DRIaDD", names: ["Prof Ben S Cooper"], photo: "/assets/headshot/3.ben.webp", parentId: "1" },
   { id: "16", position: "Senior Scientist", names: ["Cherry Lim", "Alicia Gill"], parentId: "15" },
   { id: "17", position: "Research Associate, Deputy Director ADVANCE-ID network", names: ["Mo Yin"], parentId: "15" },
   { id: "18", position: "Mathematical Modeller", names: ["Sean Cavany"], parentId: "15" },
@@ -30,17 +30,17 @@ const orgData = [
   { id: "24", position: "DPhil Student", names: ["Toby Bonvoisin", "Oraya Srimokla", "Rachel Otuko", "Lucien Swetschinski", "Freddie Fell"], parentId: "15" },
 
   // MOTIP Groups
-  { id: "29", position: "MOTIP Director", names: ["Maneerat Ekkapongpisit, PhD"], photo: "/src/assets/headshot/4.maneerat.webp", parentId: "1" },
+  { id: "29", position: "MOTIP Director", names: ["Maneerat Ekkapongpisit, PhD"], photo: "/assets/headshot/4.maneerat.webp", parentId: "1" },
   { id: "30", position: "Project Manager", names: ["Grid Gunjina", "Chawitar Noparatvarakorn"], parentId: "29" },
   { id: "32", position: "Health Economist", names: ["Puttarin Kulchaitanaroaj, PhD"], parentId: "29" },
   { id: "33", position: "Consultant (Tropmed DC)", names: ["Adshariya Agsornintara"], parentId: "29" },
   
   // Research Software Engineering Groups
-  { id: "34", position: "Head of RSE", names: ["Dr Sompob Saralamba, PhD"], photo: "/src/assets/headshot/5.sompob.webp", parentId: "1" },
+  { id: "34", position: "Head of RSE", names: ["Dr Sompob Saralamba, PhD"], photo: "/assets/headshot/5.sompob.webp", parentId: "1" },
   { id: "35", position: "Research Software Engineer", names: ["Tanaphum Wichaita"], parentId: "34" },
 
   // NTDM Groups
-  { id: "36", position: "Head of NTDM", names: ["Assoc Prof Dr Wirichada Pan-ngum, PhD"], photo: "/src/assets/headshot/1.wirichada.webp", parentId: "1" },
+  { id: "36", position: "Head of NTDM", names: ["Assoc Prof Dr Wirichada Pan-ngum, PhD"], photo: "/assets/headshot/1.wirichada.webp", parentId: "1" },
   { id: "37", position: "Health Economist", names: ["Chris Painter"], parentId: "36" },
   { id: "38", position: "Postdoc Researcher", names: ["Phrutsamon Wongnak"], parentId: "36" },
   { id: "39", position: "DPhil Student", names: ["Ainura Moldokmatova", "Amandip Sahota"], parentId: "36" },

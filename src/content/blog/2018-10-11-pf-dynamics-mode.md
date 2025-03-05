@@ -3,7 +3,7 @@ draft: false
 title: "A Collection of the _P. falciparum_ Dynamic Models"
 snippet: "A collection of dynamic models of _P. falciparum_ parasites before and during treatment with antimalarial drugs, written in Wolfram language."
 image: {
-    src: "/src/assets/MORU_FS_RGB.jpg",
+    src: "/assets/MORU_FS_RGB.jpg",
     alt: "Malaria Dynamic Models"
 }
 publishDate: "2024-02-26"
