@@ -1,46 +1,59 @@
 ---
-import Contactform from "@components/contactform.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 import { Icon } from "astro-icon/components";
+import { Picture } from "astro:assets";
+import emailImage from "assets/tanapum_email.webp";
 ---
 
 <Layout title="Contact">
   <Container>
     <Sectionhead>
       <Fragment slot="title">Contact</Fragment>
-      <Fragment slot="desc">We are a here to help.</Fragment>
+      <Fragment slot="desc">We are here to help.</Fragment>
     </Sectionhead>
 
-    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
-      <div>
-        <h2 class="font-medium text-2xl text-gray-800">Contact MEAMOD</h2>
-        <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          Have something to say? We are here to help. Fill up the form or send
-          email or call phone.
+    <div class="flex justify-center items-center min-h-[50vh]">
+      <div class="bg-white shadow-lg rounded-xl p-8 max-w-lg w-full text-center">
+        <h2 class="text-3xl font-bold text-gray-800">Contact Us</h2>
+        <p class="text-lg text-gray-600 mt-3">
+          Need assistance? Reach out to us through the following channels.
         </p>
-        <div class="mt-5">
-          <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
-            <span>Chamlong Harinasuta Building, 420/6 Rajvithi Road, Thung Phaya Thai, Ratchathewi, Bangkok 10400</span>
+        
+        <div class="mt-6 space-y-4">
+          <!-- Address -->
+          <div class="flex items-center justify-center space-x-0 gap-0 text-gray-600">
+            <Icon class="text-gray-400 w-7 h-7 mb-6" name="uil:map-marker" />
+            <span>Chamlong Harinasuta Building, 420/6 Rajvithi Road, Ratchathewi, Bangkok 10400</span>
           </div>
-          <!-- <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
-              href="mailto:hello@astroshipstarter.com"
-              >hello@astroshipstarter.com</a
-            >
-          </div> -->
-          <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:phone" /><a
-              href="tel:02 203 6333">02 203 6333</a
-            >
+    
+          <!-- Email -->
+          <div class="flex items-center justify-center space-x-3 text-gray-600">
+            <Icon class="text-gray-400 w-5 h-5" name="uil:envelope" />
+            <Picture
+              src={emailImage}
+              alt="Click to Copy Email"
+              class="cursor-pointer h-7 w-auto"
+              onclick="copyEmail()"
+            />
+          </div>
+    
+          <!-- Phone -->
+          <div class="flex items-center justify-center space-x-3 text-gray-600">
+            <Icon class="text-gray-400 w-5 h-5" name="uil:phone" />
+            <a href="tel:02 203 6333" class="text-blue-600 hover:underline">02 203 6333</a>
           </div>
         </div>
-      </div>
-      <div>
-        <Contactform />
       </div>
     </div>
   </Container>
 </Layout>
+
+<script is:inline>
+  function copyEmail() {
+    const email = "Tanaphum@tropmedres.ac";
+    navigator.clipboard.writeText(email);
+    alert("Email copied to clipboard: " + email);
+  }
+</script>
