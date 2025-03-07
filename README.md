@@ -1,6 +1,6 @@
 # MAEMOD Website
 
-code of The Mathematical and Economic MODelling (MAEMOD) Web for collect project and code.
+code of The Mathematical And Economic MODelling (MAEMOD) Web for collect project and code.
 
 Website : https://maemod-moru.github.io/
 
