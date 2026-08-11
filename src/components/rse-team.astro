@@ -1,10 +1,24 @@
 ---
 import { Picture } from "astro:assets";
-import TeamImage from "assets/IMG_20211115_122406.jpg";
+import Image1 from "assets/sompob-saralamba.webp";
+import Image2 from "assets/tanaphum-wichaita.png";
+import Image3 from "assets/thanakorn-waleejaroenpong.png";
+const images = [Image1, Image2, Image3];
 
 ---
 
 <section class="py-16 text-center">
   <h2 class="text-3xl font-bold text-gray-800 mb-6">Meet Our Team</h2>
-  <Picture src={TeamImage} alt="RSE Team" class="mx-auto rounded-lg shadow-lg w-full max-w-3xl">
+  <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-4xl mx-auto">
+    {images.map((img, i) => (
+      <div class="rounded-lg overflow-hidden shadow" key={i}>
+        <Picture src={img} alt={`Team member ${i + 1}`} class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+      </div>
+    ))}
+  </div>
+  <br>
+  <br>
+<h2 class="text-3xl font-bold text-gray-800">
+  Meet Our Web : <a href="https://moru-rse.github.io/" class="text-blue-600 hover:underline">MORU-RSE Web</a>
+</h2>
 </section>
